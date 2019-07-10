@@ -1,0 +1,26 @@
+{
+  "name": "weather-info-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "source/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon source/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jswob/weather-info-api.git"
+  },
+  "author": "jswob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jswob/weather-info-api/issues"
+  },
+  "homepage": "https://github.com/jswob/weather-info-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
