@@ -12,7 +12,7 @@ mongoose
     { useNewUrlParser: true }
   )
   .then(() => {
-    app.listen(8000);asdfdasfsa
+    app.listen(8000);
   })
   .catch(error => {
     throw error;
